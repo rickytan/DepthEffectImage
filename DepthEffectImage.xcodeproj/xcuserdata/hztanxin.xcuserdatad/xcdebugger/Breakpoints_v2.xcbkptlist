@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "ED0C4A35-4548-42DA-A521-A8D9966D1615"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D1EDBB7-0E47-4160-A348-1F1F34BB9055"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DepthEffectImage/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "request"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "8D1EDBB7-0E47-4160-A348-1F1F34BB9055 - 1aa3fed0536696cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DepthEffectImage.ViewController.request.getter : __C.VNCoreMLRequest"
+                  moduleName = "DepthEffectImage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hztanxin/Code/DepthEffectImage/DepthEffectImage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "4795">
+               </Location>
+               <Location
+                  uuid = "8D1EDBB7-0E47-4160-A348-1F1F34BB9055 - 5ef68e45bd9ee0f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (__C.VNRequest, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DepthEffectImage.ViewController.request.getter : __C.VNCoreMLRequest"
+                  moduleName = "DepthEffectImage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hztanxin/Code/DepthEffectImage/DepthEffectImage/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
