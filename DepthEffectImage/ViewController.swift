@@ -114,7 +114,8 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         if let image = self.imageView.image {
             imageSize = image.size
             DispatchQueue.global().async { [unowned self] in
-                let handler = VNImageRequestHandler(cgImage: image.resize(to: .init(width: 513, height: 513)).cgImage!)
+                self.request.imageCropAndScaleOption = .scaleFill
+                let handler = VNImageRequestHandler(cgImage: image.cgImage!)
                 try? handler.perform([self.request])
             }
         }
